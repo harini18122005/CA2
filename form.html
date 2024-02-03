@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form page</title>
+    <link rel="stylesheet" href="form.css">
+    
+</head>
+<body>
+    <!-- form -->
+    <div class="container">
+        <form action="instruction.html" method="post" id="form" >
+            <!-- Name of the form -->
+            <header>
+                 <br>Sign In</br>
+            </header>
+            <!-- details -->
+            <label for="username">Name:</label>
+            <input type="text" id="username" name="username" placeholder="Enter Your Name" required>
+            
+        <label for="nickName">Nick Name:</label>
+        <input type="text" id="nickName" name="nickName" placeholder="Enter Your nickName" required>
+    
+            <a href="./instruction.html"><input type="Start Game" value="Submit"></a>
+        </form>
+    </div>
+    
+    <!-- sound button -->
+    <button id="audioToggle">Sound On/Off</button>
+
+    <audio id="gameAudio" loop>
+        <source src="./images/WhatsApp Audio 2024-02-01 at 10.39.25 PM.mpeg" type="audio/mp3">
+    </audio>
+    <audio id="gameAudio" loop volume="0.5">
+        <source src="./images/WhatsApp Audio 2024-02-01 at 10.39.25 PM.mpeg" type="audio/mp3">
+    </audio>
+    <!-- link js  -->
+    <script src="form.js"></script>
+</body>
+</html>

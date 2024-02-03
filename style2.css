@@ -1,0 +1,67 @@
+body {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/797/573/269/forest-trees-house-the-moon-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-image:center;
+    background-size: cover;
+  
+}
+h1{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size:xx-large;
+    -webkit-text-stroke-color: yellow;
+    
+}
+p{
+    color: white;
+    font-size:xx-large;
+   
+
+}
+img{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    left: 1050px;
+    bottom: 710px;
+
+
+}
+#audioToggle{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+    background-color: #fff;
+    color: black;
+    border: none;
+    padding:  10px 20px ;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: white 0.3s ease;
+
+}
+#audioToggle:hover{
+    background-color:fuchsia;
+    color: white;
+
+}
+@media (max-width: 782px) {
+    img{
+        position: relative;
+        width: 60px;
+        height: 60px;
+        left: 450px;
+        bottom: 1125px;
+    
+    
+    }
+    
+}
+
+
+
+
+

@@ -1,0 +1,105 @@
+body {
+    background-image:url("https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-halloween-backdrop-with-pumpkins-and-bats-image_2895952.jpg");
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#audioToggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#audioToggle:hover {
+    background-color: #009a27;
+    color: #fff;
+}
+/* header file  */
+header {
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+/* arrange the form box */
+.container {
+    top: 50%;
+    max-width: 1200px;
+    max-height: 1200px;
+    margin: 20px auto;
+    background-color:#fff;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+/* submit button */
+input[type="Start Game"] {
+    font-size: 30px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(116, 235, 116);
+    color: #000;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    
+}
+
+input[type="Start Game"]:hover {
+    background-color:rgb(19, 235, 19);;
+    color: #000000;
+}
+
+/* responsive style  */
+@media only screen and (max-width: 480px) {
+    .container {
+        top: 50%;
+        /* max-width: 90%; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input[type="Start Game"] {
+        font-size: 18px;
+        padding: 12px 25px;
+    }
+}

@@ -1,0 +1,128 @@
+body {
+    background-image: url("https://mir-s3-cdn-cf.behance.net/projects/404/14086487.548502b151465.jpg");
+    background-repeat: no-repeat;
+    background-image:center;
+    background-size: cover;
+  
+}
+p{
+    position: absolute;
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+    bottom: 700px;
+    right :90 px;
+    -webkit-text-stroke:5px  black;
+}
+/* #ea{
+    position: relative;
+    background-color:antiquewhite;
+    border-radius: 90px;
+    font-size: 100px;
+    text-align: center;
+    left: 700px;
+    
+
+
+}
+#me{
+    position: relative;
+    background-color:antiquewhite;
+    font-size: 100px;
+    text-align: center;
+    top: 200px;
+    left: 350px;
+    border-radius: 50px;
+
+}
+#di{
+position: relative;
+    background-color:antiquewhite;
+    font-size: 100px;
+    text-align: center;
+    border-radius: 50px;
+    top: 400px;
+    right: 100px;
+
+} */
+/* #ea:hover{
+    background-color: burlywood;
+
+}
+#me:hover{
+    background-color: chartreuse;
+    
+}
+#di:hover{
+    background-color: aqua;
+
+} */
+/* Add these styles to your stylelevel.css file */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ensure full viewport height */
+    margin: 0;
+}
+
+button {
+    margin: 40px; 
+    padding: 20px 20px; 
+    font-size: 60px;
+    border-radius: 30px;
+}
+
+#ea {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+#me {
+    background-color: #008CBA; 
+    color: white;
+}
+
+#di {
+    background-color: #FF9800; 
+    color: white;
+}
+
+/* Add hover styles */
+
+#ea:hover {
+    background-color: #45a049; 
+}
+
+#me:hover {
+    background-color: #0077A6; 
+}
+
+#di:hover {
+    background-color: #E68A00; 
+}
+
+#audioToggle{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+    background-color: #fff;
+    color: black;
+    border: none;
+    padding:  10px 20px ;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: white 0.3s ease;
+
+}
+#audioToggle:hover{
+    background-color:fuchsia;
+    color: white;
+
+}
